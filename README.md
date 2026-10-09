@@ -1,14 +1,10 @@
-# CI/CD Tools and Practices Final Project Template
+# CI/CD Final Project
 
-This repository contains the template to be used for the Final Project for the Coursera course **CI/CD Tools and Practices**.
+This repository contains my Final Project for the Coursera course **CI/CD Tools and Practices**.
 
-## Usage
+## Project Name
 
-This repository is to be used as a template to create your own repository in your own GitHub account. No need to Fork it as it has been set up as a Template. This will avoid confusion when making Pull Requests in the future.
-
-From the GitHub **Code** page, press the green **Use this template** button to create your own repository from this template.
-
-Name your repo: `ci-cd-final-project`.
+**ci-cd-final-project**: a Flask service with a CI pipeline on GitHub Actions and a CD pipeline on OpenShift using Tekton.
 
 ## Setup
 
@@ -26,6 +22,8 @@ exit
 
 ## Tasks
 
+- GitHub Actions CI workflow: `.github/workflows/workflow.yml` (lint with flake8, unit tests with nose)
+- Tekton CD pipeline: `.tekton/tasks.yml` (cleanup, nose tests)
 
 ## License
 
