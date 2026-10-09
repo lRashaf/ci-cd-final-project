@@ -1,5 +1,6 @@
-# CI/CD Final Project
+# CI/CD Tools and Practices Final Project Template
 
+**Project name: ci-cd-final-project**
 This repository contains my Final Project for the Coursera course **CI/CD Tools and Practices**.
 
 ## Project Name
